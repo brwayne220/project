@@ -1,8 +1,7 @@
-.bg-light{
+.mynav{
    background-color: #48466d !important;
 }
 
-.mr-auto,
-.mx-auto {
-  margin-right: 70% !important;
+.mynav-ul-margin {
+  margin-right: 200px !important;
 }
