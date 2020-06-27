@@ -27,4 +27,7 @@ ul li:hover{
     background-color:transparent;
 }
 
+.transparent{
+    opacity: 0.9;
+}
 
