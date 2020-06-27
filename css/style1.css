@@ -1,9 +1,9 @@
 .mynav{
-   background-color: #1f4e5f;
+   background-color: #1f4e5f !important;
 }
 
 .mynavbar-brand{
-   color: #f4f7f7;
+   color: #f4f7f7 !important;
 }
 
 .navul-margin {
