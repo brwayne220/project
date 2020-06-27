@@ -23,6 +23,6 @@ body{
   height: 48px;
 }
 
-.active:hover{
+.li:hover{
   opactiy:0.3;
 }
