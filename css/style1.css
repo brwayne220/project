@@ -1,9 +1,10 @@
 body{
-  background-color: #79a8a9;
+  background-color: #f4f7f7;
 }
 
 .navul-margin {
   margin-left: 85%;
+  padding-right:30px
 }
 
 .myactive{
