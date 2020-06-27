@@ -23,6 +23,8 @@ body{
   height: 48px;
 }
 
-.li:hover{
-  opactiy:0.3;
+ul li:hover ul li{
+    display : block;   
 }
+
+
