@@ -23,3 +23,6 @@ body{
   height: 48px;
 }
 
+.my-navitem:hover{
+  opactiy:0.3;
+}
