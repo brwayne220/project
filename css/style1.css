@@ -23,17 +23,7 @@ body{
   height: 48px;
 }
 
-ul li:hover{
-    background-color:transparent;
-}
 
-ul li a {
-    text-decoration: none;
-    color : brown;
-    display: block;
-}
 
-.transparent{
-    opacity: 0.9;
-}
+
 
