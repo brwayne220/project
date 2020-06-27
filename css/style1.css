@@ -23,8 +23,8 @@ body{
   height: 48px;
 }
 
-ul li:hover ul li{
-    display : block;   
+ul li:hover{
+    background-color:transparent;
 }
 
 
