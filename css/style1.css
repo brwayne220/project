@@ -8,8 +8,8 @@ body{
 
 li{
   height: 50px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
 li:hover{
