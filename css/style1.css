@@ -71,4 +71,24 @@ li:hover{
 
 
 
+ @media (max-width: 1156px) {
+
+  .li {
+    text-align: center;
+  }
+  
+  body{
+    background-color:yellow;
+  }
+   
+   .topnav{
+     position:relative;
+     right: 0px;
+     left: -500;
+     top: 150px;
+     left: 0px;
+     margin-right: 500px
+   }
+}
+
 
