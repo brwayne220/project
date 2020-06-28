@@ -6,6 +6,10 @@ a:hover{
   text-decoration: none;
 }
 
+nav-active{
+  text-align:center;
+}
+
 body{
   background-color: #e6f5f6;
 }
