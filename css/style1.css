@@ -43,6 +43,10 @@ li:hover{
   position: relative;
 }
 
+.topnav:not(.show) {
+  display: none;
+}
+
 
 
 
