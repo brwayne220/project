@@ -80,9 +80,13 @@ li:hover{
     background-color:yellow;
   }
    
-   .toggler-position{
+   .topnav{
     position:relative;
-     left:50%
+     right: 0px;
+     left: -500;
+     top: 150px;
+     left: 0px;
+     margin-right: 500px
    }
 
 }
