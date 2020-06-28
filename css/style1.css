@@ -50,11 +50,11 @@ li:hover{
   height: 48px;
 }
 
-.topnav {
-  position: relative;
+ .mynav{
+      min-height: 66px;
+  }  
+
 }
-
-
 
 
 @media (max-width: 1342px) {
