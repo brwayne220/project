@@ -66,8 +66,8 @@ li:hover {
 	}
 	
 	.topnav {
-		position: absolute;
-		margin-left: 65%;
+		position: relative;
+    		left: 60%;
 	}
 	
 	.mynav {
