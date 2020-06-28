@@ -110,11 +110,12 @@ li:hover{
     width: 100%;
     top: 80%;
     left: 0%;
+    display: none;
   }
 
-     .mynav{
+   .mynav{
       min-height: 66px;
-     }  
+   }  
      
      
   .mynavbar-brand{
