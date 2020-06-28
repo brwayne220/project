@@ -26,7 +26,7 @@ li:hover {
 
 .topnav {
 	position: relative;
-	left: 70%;
+	left: 60%;
 }
 
 .dsk-ul {
@@ -54,28 +54,8 @@ li:hover {
 .mynav {
 	min-height: 66px;
 }
-
-
 }
 
-
-
-
-@media (max-width: 1156px) {
-	
-	body {
-		background-color: yellow;
-	}
-	
-	.topnav {
-		position: relative;
-    		left: 60%;
-	}
-	
-	.mynav {
-		min-height: 66px;
-	}
-}
 
 @media screen and (max-width: 991px) {
 	li {
