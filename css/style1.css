@@ -66,8 +66,9 @@ li:hover{
   }
 
   .topnav {
+   position: relative;
    left: 65%;
-}
+  }
 }
   
  @media (max-width: 1156px) {
