@@ -42,6 +42,17 @@ li:hover{
   display: none;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+
+
+
+
+//MEDIA
 @media (max-width: 1342px) {
 
   .li {
