@@ -109,6 +109,11 @@ li:hover{
      margin-left: 250px;
      height: 130px;
   }
+     
+     .mynavbar-brand{
+     top: 10%;
+       left:10%;
+     }
       
      .toggler-position{
       position:absolute;
