@@ -82,6 +82,22 @@ li:hover{
   }
    
    .topnav{
+      position: relative;
+      left: 60%;
+   }
+   
+   
+    @media (max-width: 991px) {
+
+  .li {
+    text-align: center;
+  }
+  
+  body{
+    background-color:orange;
+  }
+   
+   .topnav{
      position:relative;
      right: 0px;
      left: -500;
