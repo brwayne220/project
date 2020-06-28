@@ -110,7 +110,9 @@ li:hover{
     left: 45%;
   }
 
-     
+     .mynav{
+      min-height: 66px;
+     }  
   .mynavbar-brand{
        position:absolute;
        top: 10%;
