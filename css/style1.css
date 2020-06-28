@@ -59,10 +59,10 @@ li:hover {
 }
 
 
-@media (max-width: 1342px) {
+@media (max-width: 1341px) {
 	
 	body {
-		background-color: red;
+		background-color: blue;
 	}
 	
 	.topnav {
