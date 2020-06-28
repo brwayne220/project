@@ -42,6 +42,10 @@ li:hover{
   .li {
     text-align: center;
   }
+  
+  body{
+    background-color:red;
+  }
 
   .navul-margin {
    margin-left: 50%;
