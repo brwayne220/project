@@ -85,6 +85,10 @@ li:hover{
     background-color:yellow;
   }
    
+   .mynav {
+    height: 50px;
+  }
+   
    .topnav{
       position: absolute;
       left: 60%;
