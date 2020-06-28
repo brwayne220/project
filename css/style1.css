@@ -91,7 +91,7 @@ dsk-ul{
    }
    
    
-    @media (max-width: 991px) {
+   @media (max-width: 991px) {
 
   .li {
     text-align: center;
@@ -110,6 +110,10 @@ dsk-ul{
      height: 130px;
   }
       
+     togger-position{
+      position:relative;
+       left:auto;
+     }
       
    .topnav{
      position:relative;
