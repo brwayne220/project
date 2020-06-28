@@ -67,10 +67,16 @@ li:hover{
     background-color:red;
   }
 
-  .topnav {
-   position: relative;
-   left: 65%;
-  }
+   .topnav{
+      position: absolute;
+      left: 65%;
+   }
+  
+  .mynav{
+      min-height: 66px;
+   }  
+  
+  
 }
 
 
