@@ -16,11 +16,11 @@
        
       <a class="navbar-brand mynavbar-brand" href="#">Navbar</a>
        
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <button class="navbar-toggler toggler-position" type="button" onclick="myFunction()" href="javascript:void(0);">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-      <div class="collapse navul-margin navbar-collapse" id="navbarTogglerDemo02">
+      <div class="topnav navul-margin " id="navbarTogglerDemo02">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="myactive" href="#">Home<span class="sr-only">(current)</span></a>
@@ -45,6 +45,29 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ <script> 
+  
+  function myFunction() {
+  var x = document.getElementById("navbarTogglerDemo02");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  
+  
+  
+  </script>
   
 
 </body>
