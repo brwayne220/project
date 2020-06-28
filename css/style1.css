@@ -97,6 +97,16 @@ li:hover{
     background-color:orange;
   }
    
+  mobile-nav{
+    height:250px;    
+  }
+      
+      mob-ul{
+        margin-left: 50%;
+        width: 130px;
+      }
+      
+      
    .topnav{
      position:relative;
      right: 0px;
