@@ -29,6 +29,10 @@ li:hover{
   left:70%;
 }
 
+dsk-ul{
+  height: 50px;
+}
+
 .myactive{
    color: #f4f7f7 !important;
    margin-right: 25px;
@@ -101,10 +105,10 @@ li:hover{
     height:250px;    
   }
       
-      mob-ul{
-        margin-left: 250px;
-        width: 130px;
-      }
+  mob-ul{
+     margin-left: 250px;
+     height: 130px;
+  }
       
       
    .topnav{
