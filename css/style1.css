@@ -111,8 +111,8 @@ dsk-ul{
   }
       
      togger-position{
-      position:relative;
-       left:auto;
+      position:absolute;
+       left:70%;
      }
       
    .topnav{
