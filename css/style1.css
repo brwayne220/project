@@ -103,16 +103,20 @@ li:hover{
   }
       
   .topnav {
+    background-color: rgb(57,158,164);
+    text-align: center;
     position: absolute;
     height: 140px;
-    top: 40%;
-    right: 10%;
-    left: 45%;
+    width: 100%;
+    top: 80%;
+    left: 0%;
   }
 
      .mynav{
       min-height: 66px;
      }  
+     
+     
   .mynavbar-brand{
        position:absolute;
        top: 10%;
