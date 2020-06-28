@@ -2,6 +2,10 @@ body{
   background-color: #e6f5f6;
 }
 
+li{
+  padding: auto;
+}
+
 li:hover{
   background-color:#4CA7AD;
 }
