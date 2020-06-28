@@ -79,14 +79,11 @@ li:hover{
 
   .li {
     text-align: center;
+    width:100%;
   }
   
   body{
     background-color:yellow;
-  }
-   
-   .mynav {
-    height: 66px;
   }
    
    .topnav{
