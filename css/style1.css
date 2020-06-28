@@ -37,6 +37,20 @@ li:hover{
   height: 48px;
 }
 
+@media (max-width: 1028px) {
+
+  .li {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: 50%;
+
+  }
+}
+
 
 
 
