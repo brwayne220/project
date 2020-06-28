@@ -64,15 +64,6 @@ li:hover {
 	body {
 		background-color: blue;
 	}
-	
-	.topnav {
-		position: relative;
-    		left: 50%;
-	}
-	
-	.mynav {
-		min-height: 66px;
-	}
 }
 
 @media (max-width: 1156px) {
