@@ -100,28 +100,23 @@ li:hover{
   body{
     background-color:orange;
   }
-   
-  .mobile-nav{
-    position:relative;
-    height:500px;    
-  }
       
   .mob-ul{
      margin-left: 250px;
      height: 130px;
   }
      
-     .mynavbar-brand{
+  .mynavbar-brand{
        position:absolute;
        top: 10%;
        left:10%;
-     }
+  }
       
-     .toggler-position{
+  .toggler-position{
       position:absolute;
        left:90%;
        top: 10%;
-     }
+  }
 }
 
 
