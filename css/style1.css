@@ -5,6 +5,7 @@ body{
 li{
   padding-top: 7px;
   padding-bottom: 7px;
+  text-decoration: none;
 }
 
 li:hover{
