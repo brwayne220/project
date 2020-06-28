@@ -77,13 +77,6 @@ li:hover {
 	}
 }
 
-@media screen and (max-width: 1242px) {
-	
-	body {
-		background-color: blue;
-	}
-}
-
 @media screen and (max-width: 991px) {
 	li {
 		text-align: center;
