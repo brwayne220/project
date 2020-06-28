@@ -68,7 +68,7 @@ li:hover{
   }
 
   .topnav {
-   position: relative;
+   position: absolute;
    left: 65%;
   }
 }
@@ -88,8 +88,14 @@ li:hover{
    
    .topnav{
       position: absolute;
-      left: 60%;
+      left: 65%;
    }
+   
+   .mynav{
+      min-height: 66px;
+   }  
+   
+   
 }  
    
    @media (max-width: 991px) {
