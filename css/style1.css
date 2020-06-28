@@ -70,13 +70,14 @@ li:hover {
 	
 	.topnav {
 		position: absolute;
-		left: 65%;
+		margin-left: 65%;
 	}
 	
 	.mynav {
 		min-height: 66px;
 	}
 }
+
 @media (max-width: 1156px) {
 	li {
 		text-align: center;
