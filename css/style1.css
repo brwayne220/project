@@ -6,7 +6,7 @@ a:hover{
   text-decoration: none;
 }
 
-nav-active{
+.nav-active{
   text-align:center;
 }
 
@@ -29,7 +29,7 @@ li:hover{
   left:70%;
 }
 
-dsk-ul{
+.dsk-ul{
   height: 50px;
 }
 
@@ -101,11 +101,11 @@ dsk-ul{
     background-color:orange;
   }
    
-  mobile-nav{
+  .mobile-nav{
     height:500px;    
   }
       
-  mob-ul{
+  .mob-ul{
      margin-left: 250px;
      height: 130px;
   }
