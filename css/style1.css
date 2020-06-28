@@ -59,7 +59,7 @@ li:hover{
 
 @media (max-width: 1342px) {
 
-  .li {
+  li {
     text-align: center;
   }
   
@@ -83,7 +83,7 @@ li:hover{
 
  @media (max-width: 1156px) {
 
-  .li {
+  li {
     text-align: center;
     width:100%;
   }
@@ -106,7 +106,7 @@ li:hover{
    
    @media (max-width: 991px) {
 
-  .li {
+  li {
     text-align: center;
   }
   
