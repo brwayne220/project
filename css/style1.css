@@ -3,8 +3,8 @@ body{
 }
 
 li{
-  padding-top: .3225rem;
-  padding-bottom: .3125rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 li:hover{
