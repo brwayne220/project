@@ -60,9 +60,6 @@ li:hover {
 
 
 @media (max-width: 1342px) {
-	li {
-		text-align: center;
-	}
 	
 	body {
 		background-color: red;
@@ -79,18 +76,14 @@ li:hover {
 }
 
 @media (max-width: 1156px) {
-	li {
-		text-align: center;
-		width: 100%;
-	}
 	
 	body {
 		background-color: yellow;
 	}
 	
 	.topnav {
-		position: absolute;
-    		margin-right: 20%;
+		position: relative;
+    		left: 60%;
 	}
 	
 	.mynav {
