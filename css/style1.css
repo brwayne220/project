@@ -110,9 +110,9 @@ dsk-ul{
      height: 130px;
   }
       
-     togger-position{
+     .toggler-position{
       position:absolute;
-       left:70%;
+       left:50%;
      }
       
    .topnav{
