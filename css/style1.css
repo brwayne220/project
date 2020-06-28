@@ -102,8 +102,10 @@ li:hover{
   }
       
   .mob-ul{
-     margin-left: 250px;
-     height: 130px;
+    position: relative;
+    height: 130px;
+    top: 35px;
+    right: 120px;
   }
      
   nav{
