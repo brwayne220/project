@@ -51,6 +51,20 @@ li:hover{
    margin-left: 65%;
 }
   
+ @media (max-width: 1156px) {
+
+  .li {
+    text-align: center;
+  }
+  
+  body{
+    background-color:yellow;
+  }
+
+  .navul-margin {
+   margin-left: 65%;
+}
+  
 }
 
 
