@@ -58,20 +58,6 @@ li:hover {
 
 
 
-
-
-//MEDIA
-
-@media screen and (max-width: 1043px) and (min-width: 991px){ 
-    body {
-		background-color: red;
-	}
-}
-
-//MEDIA
-
-
-
 @media (max-width: 991px) {
 	li {
 		text-align: center;
