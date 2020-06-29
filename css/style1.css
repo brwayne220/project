@@ -25,9 +25,8 @@ li:hover {
 }
 
 .topnav {
-	margin-left: 60%;
-	  
-
+	position: absolute;
+    	left: 60%;
 }
 
 .dsk-ul {
@@ -68,7 +67,8 @@ li:hover {
 	}
 	
 	.topnav {
-		margin-left: 60%;
+		position: absolute;
+    		left: 60%;
 	}
 	
 	.mynav {
