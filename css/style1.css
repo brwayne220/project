@@ -11,20 +11,22 @@ a:hover {
 }
 
 body {
-	background-color: #e6f5f6; !important;
+	background-color: #e6f5f6 !important;
 }
 
 li {
-	min-height: 66px;
+	height: 50px;
+	padding-top:7px;
+	padding-bottom:5px;
 }
 
 li:hover {
-	background-color: #4CA7AD;
+	background-color: #4CA7AD !important;
 }
 
 .topnav {
 	position: absolute;
-    	left: 70%;
+	left: 70%;
 }
 
 .dsk-ul {
@@ -32,17 +34,17 @@ li:hover {
 }
 
 .myactive {
-	color: #f4f7f7 ; !important;
+	color: #f4f7f7 !important;
 	margin-right: 25px;
 	margin-left: 25px;
 }
 
 .mynav {
-	background-color: #399ea4 ; !important;
+	background-color: #399ea4 !important;
 }
 
 .mynavbar-brand {
-	color: #f4f7f7; !important;
+	color: #f4f7f7 !important;
 }
 
 .my-navitem {
@@ -55,13 +57,29 @@ li:hover {
 
 
 
-@media (max-width:991px) {
+@media (max-width: 1044px) {
+	
+	body {
+		background-color: red !important;
+	}
+	
+	.topnav {
+		position: absolute;
+		left: 65%;
+	}
+
+}
+
+
+
+
+@media (max-width: 991px) {
 	li {
 		text-align: center;
 	}
 	
 	body {
-		background-color: orange;
+		background-color: orange !important;
 	}
 	
 	.topnav {
@@ -71,6 +89,7 @@ li:hover {
 		height: 150px;
 		width: 100%;
 		top: 80%;
+		left: 0%;
 		display: none;
 	}
 	
