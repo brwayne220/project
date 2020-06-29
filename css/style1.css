@@ -1,8 +1,8 @@
-a {
+.a-class {
 	text-align: center;
 }
 
-a:hover {
+.a-class:hover {
 	text-decoration: none;
 }
 
@@ -12,7 +12,7 @@ a:hover {
 
 body {
 	background-color: #e6f5f6 !important;
-}
+	}
 
 li {
 	height: 50px;
@@ -109,4 +109,87 @@ li:hover {
 		left: 85%;
 		top: 10%;
 	}
+}
+
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #399ea4 ;
+  
+  color: white;
+  margin-top:100%;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+
+/* footer social icons */
+
+
+.fa {
+
+	padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+
+.col-lg-12{
+	text-align: center;
+    margin: auto;
+}
+
+.socialmedia{
+	margin-right: 10px;
+    margin-left: auto;
+}
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 15px;
 }
