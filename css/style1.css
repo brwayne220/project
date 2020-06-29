@@ -58,6 +58,28 @@ li:hover {
 }
 
 
+@media (max-width: 1013px) {
+	li {
+		text-align: center;
+	}
+	
+	body {
+		background-color: red;
+	}
+	
+	.topnav {
+		margin-left: 60%;
+	}
+	
+	.mynav {
+		min-height: 66px;
+	}
+}
+
+
+
+
+
 @media (max-width: 991px) {
 	li {
 		text-align: center;
