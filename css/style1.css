@@ -34,17 +34,17 @@ li:hover {
 }
 
 .myactive {
-	color: #f4f7f7 !important;
+	color: #f4f7f7 ;
 	margin-right: 25px;
 	margin-left: 25px;
 }
 
 .mynav {
-	background-color: #399ea4 !important;
+	background-color: #399ea4 ;
 }
 
 .mynavbar-brand {
-	color: #f4f7f7 !important;
+	color: #f4f7f7;
 }
 
 .my-navitem {
@@ -73,7 +73,6 @@ li:hover {
 		height: 150px;
 		width: 100%;
 		top: 80%;
-		left: 0%;
 		display: none;
 	}
 	
