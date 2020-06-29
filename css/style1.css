@@ -57,23 +57,10 @@ li:hover {
 }
 
 
-@media (max-width: 1013px) {
-	li {
-		text-align: center;
-	}
-	
-	body {
-		background-color: red;
-	}
-	
-	.topnav {
-		position: absolute;
-    		left: 60%;
-	}
-	
-	.mynav {
-		min-height: 66px;
-	}
+@media only screen and (max-width: 1043px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 
