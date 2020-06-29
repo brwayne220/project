@@ -57,10 +57,10 @@ li:hover {
 }
 
 
-@media only screen and (max-width: 1043px) {
-  body {
-    background-color: lightblue;
-  }
+@media screen and (max-width: 1043px) and (min-width: 990px) { 
+    body {
+		background-color: red;
+	}
 }
 
 
