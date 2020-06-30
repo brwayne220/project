@@ -205,6 +205,6 @@ footer a:hover {
 	.mob-tab-width{
 		flex: 0 0 25%;
 		min-width: 100%;
-		overflow: hidden;
+		overflow: hidden; 
 	}
 }
