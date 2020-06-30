@@ -1,120 +1,114 @@
 .a-class {
-	text-align: center;
+  text-align: center;
 }
 
 .a-class:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-active {
-	text-align: center;
+  text-align: center;
 }
 
 body {
-	background-color: #e6f5f6 !important;
-	}
+  background-color: #e6f5f6 !important;
+}
 
 li {
-	height: 50px;
-	padding-top:7px;
-	padding-bottom:5px;
+  height: 50px;
+  padding-top: 7px;
+  padding-bottom: 5px;
 }
 
 li:hover {
-	background-color: #4CA7AD !important;
+  background-color: #4CA7AD !important;
 }
 
 .topnav {
-	position: absolute;
-	left: 70%;
+  position: absolute;
+  left: 70%;
 }
 
 .dsk-ul {
-	height: 50px;
+  height: 50px;
 }
 
 .myactive {
-	color: #f4f7f7 !important;
-	margin-right: 25px;
-	margin-left: 25px;
+  color: #f4f7f7 !important;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .mynav {
-	background-color: #399ea4 !important;
+  background-color: #399ea4 !important;
 }
 
 .mynavbar-brand {
-	color: #f4f7f7 !important;
+  color: #f4f7f7 !important;
 }
 
 .my-navitem {
-	height: 48px;
+  height: 48px;
 }
 
 .mynav {
-	min-height: 66px;
+  min-height: 66px;
 }
-
-
 
 @media (max-width: 1064px) {
 	
-	.topnav {
-		position: absolute;
-		left: 65%;
-	}
-
+  .topnav {
+    position: absolute;
+    left: 65%;
+  }
 }
 
-
-
-
 @media (max-width: 991px) {
-	li {
-		text-align: center;
-	}
-	
-	.topnav {
-		background-color: rgb(57, 158, 164);
-		text-align: center;
-		position: absolute;
-		height: 150px;
-		width: 100%;
-		top: 80%;
-		left: 0%;
-		display: none;
-	}
-	
-	.mynav {
-		min-height: 66px;
-		width:100%
-	}
-	
-	.mynavbar-brand {
-		position: absolute;
-		top: 10%;
-		left: 2%;
-	}
-	
-	.toggler-position {
-		position: absolute;
-		left: 85%;
-		top: 10%;
-	}
+  li {
+    text-align: center;
+  }
+
+  .topnav {
+    background-color: rgb(57, 158, 164);
+    text-align: center;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 80%;
+    left: 0%;
+    display: none;
+  }
+
+  .mynav {
+    min-height: 66px;
+    width: 100%;
+  }
+
+  .mynavbar-brand {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+
+  .toggler-position {
+    position: absolute;
+    left: 85%;
+    top: 10%;
+  }
 }
 
 
 
 /*FOOTER*/
 
-.m-footer{
-    overflow: hidden;
+.m-footer {
+  overflow: hidden;
 }
 
 footer {
-  background-color: #399ea4 ;
+  background-color: #399ea4;
   color: white;
-  margin-top:100%;
+  margin-top: 100%;
 }
 
 footer a {
@@ -145,19 +139,17 @@ footer a:hover {
 
 
 .fa {
-
-	padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 .fa:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .fa-facebook {
@@ -168,40 +160,36 @@ footer a:hover {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-
 }
 
-.col-lg-12{
-	text-align: center;
-    margin: auto;
+.col-lg-12 {
+  text-align: center;
+  margin: auto;
 }
 
-.socialmedia{
-	margin-right: 10px;
-    margin-left: auto;
+.socialmedia {
+  margin-right: 10px;
+  margin-left: auto;
 }
 
-.row{
-	display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding-top: 15px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 15px;
 }
-
-
-
 
 @media (max-width: 991px) {
 
-	.mob-tab-width{
-		flex: 0 0 25%;
-		min-width: 100%;
-		overflow: hidden;
-		bottom: 0px
-	}
-	
-	html, body {
-    	min-height: 100%;
-}
+  .mob-tab-width {
+    flex: 0 0 25%;
+    min-width: 100%;
+    overflow: hidden;
+    bottom: 0px;
+  }
+
+  html, body {
+    min-height: 100%;
+  }
 }
