@@ -198,6 +198,7 @@ footer a:hover {
 
 
 @media (max-width: 991px) {
+	
 	.mob-tab-width{
 	flex: 0 0 25%;
 	min-width: 100%;
@@ -207,5 +208,5 @@ footer a:hover {
 	    position: absolute;
 	    width: 100%;
 	    bottom: 0px;
-	} 
+	}
 }
