@@ -200,4 +200,8 @@ footer a:hover {
 		overflow: hidden;
 		bottom: 0px
 	}
+	
+	html, body {
+    	min-height: 100%;
+}
 }
