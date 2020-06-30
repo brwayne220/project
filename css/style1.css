@@ -3,8 +3,9 @@
 }
 
 .a-brand{
- font-family: 'Acme', sans-serif;
-  font-family: 'Krona One', sans-serif;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
 
 }
 
