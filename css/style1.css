@@ -1,7 +1,11 @@
 .a-class {
   text-align: center;
+}
+
+.a-brand{
  font-family: 'Acme', sans-serif;
   font-family: 'Krona One', sans-serif;
+
 }
 
 .a-class:hover {
