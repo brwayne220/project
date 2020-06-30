@@ -71,6 +71,14 @@ li:hover {
   }
 }
 
+@media (max-width: 1146px) {
+	
+  .topnav {
+    position: absolute;
+    left: 65%;
+  }
+}
+
 @media (max-width: 991px) {
   li {
     text-align: center;
