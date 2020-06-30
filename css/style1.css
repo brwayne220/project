@@ -115,9 +115,12 @@ li:hover {
 
 /*FOOTER*/
 
+.m-footer{
+    overflow: hidden;
+}
+
 footer {
   background-color: #399ea4 ;
-  
   color: white;
   margin-top:100%;
 }
@@ -198,15 +201,10 @@ footer a:hover {
 
 
 @media (max-width: 991px) {
-	
+
 	.mob-tab-width{
-	flex: 0 0 25%;
-	min-width: 100%;
-	}
-	
-	div.width {
-	    position: absolute;
-	    width: 100%;
-	    bottom: 0px;
+		flex: 0 0 25%;
+		min-width: 100%;
+		overflow: hidden;
 	}
 }
