@@ -1,5 +1,7 @@
 .a-class {
   text-align: center;
+ font-family: 'Acme', sans-serif;
+  font-family: 'Krona One', sans-serif;
 }
 
 .a-class:hover {
@@ -12,8 +14,7 @@
 
 body {
   background-color: #e6f5f6 !important;
-  font-family: 'Acme', sans-serif;
-  font-family: 'Krona One', sans-serif;
+  
 }
 
 li {
