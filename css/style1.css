@@ -57,11 +57,7 @@ li:hover {
 
 
 
-@media (max-width: 1044px) {
-	
-	body {
-		background-color: red !important;
-	}
+@media (max-width: 1064px) {
 	
 	.topnav {
 		position: absolute;
@@ -76,10 +72,6 @@ li:hover {
 @media (max-width: 991px) {
 	li {
 		text-align: center;
-	}
-	
-	body {
-		background-color: orange !important;
 	}
 	
 	.topnav {
@@ -205,6 +197,6 @@ footer a:hover {
 	.mob-tab-width{
 		flex: 0 0 25%;
 		min-width: 100%;
-		overflow: hidden; 
+		overflow: hidden;
 	}
 }
