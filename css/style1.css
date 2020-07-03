@@ -113,6 +113,13 @@ li:hover {
   }
 }
 
+/* CARDS */
+
+.my-cards{
+    margin: auto auto 50%;
+    border: none;
+  }
+
 
 
 /*FOOTER*/
@@ -223,7 +230,6 @@ footer a:hover {
 	
   .my-cards{
     margin: auto auto 50%;
-    border: none;
   }	
 	
 }
