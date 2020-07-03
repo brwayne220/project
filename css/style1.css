@@ -222,7 +222,8 @@ footer a:hover {
   }
 	
   .my-cards{
-    margin: auto auto 50%;	
+    margin: auto auto 50%;
+    border: none;
   }	
 	
 }
