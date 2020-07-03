@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.a-brand{
-    font-family: "Ubuntu";
-    font-size: 30px;
-    font-weight: bold;
-
-}
-
 .a-class:hover {
   text-decoration: none;
 }
