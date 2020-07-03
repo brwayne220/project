@@ -220,4 +220,9 @@ footer a:hover {
   html, body {
     min-height: 100%;
   }
+	
+  .my-cards{
+    margin: auto auto 50%;	
+  }	
+	
 }
