@@ -179,21 +179,24 @@
 </body>
 	   
 	    <script> 
-  var mob_width = window.matchMedia("(max-width: 991px)")
-  
-  
-  function myFunction() {
-  var x = document.getElementById("navbarTogglerDemo02");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-    if (mob_width.matches) { // If media query matches
-    document.getElementById("cards").style.marginTop = "20%";
-  }
-	  
-  }
+var mob_width = window.matchMedia("(max-width: 991px)")
+
+
+function myFunction() {
+    var x = document.getElementById("navbarTogglerDemo02");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+	if (mob_width.matches) { // If media query matches
+            document.getElementById("cards").style.marginTop = "0%";
+        }
+
+    } else {
+        x.style.display = "block";
+        if (mob_width.matches) { // If media query matches
+            document.getElementById("cards").style.marginTop = "20%";
+        }
+
+    }
 }
   
   
