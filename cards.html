@@ -179,17 +179,20 @@
 </body>
 	   
 	    <script> 
+  var mob_width = window.matchMedia("(max-width: 991px)")
+  
   
   function myFunction() {
   var x = document.getElementById("navbarTogglerDemo02");
   if (x.style.display === "block") {
     x.style.display = "none";
-    document.getElementById("cards").style.marginTop = "50%";
-	  alert("1");
+    
   } else {
     x.style.display = "block";
-	  	  alert("2");
-
+    if (mob_width.matches) { // If media query matches
+    document.getElementById("cards").style.marginTop = "20%";
+  }
+	  
   }
 }
   
