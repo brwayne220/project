@@ -46,6 +46,15 @@
   transform: rotateY(180deg);
 }
 
+.bottom-left {
+  position: absolute;
+  bottom: 1px;
+  left: 16px;
+  color: white;
+  font-size: 50px;
+  opacity:75%;
+  
+}
 
 /********************************************************/
 
