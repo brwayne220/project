@@ -251,20 +251,27 @@
 </body>
 	   
 	    <script> 
-var mob_width = window.matchMedia("(max-width: 991px)")
+var med_mob_width = window.matchMedia("(max-width: 991px)")
+var small_mob_width = window.matchMedia("(max-width: 500px)")
 
 
 function myFunction() {
     var x = document.getElementById("navbarTogglerDemo02");
     if (x.style.display === "block") {
         x.style.display = "none";
-	if (mob_width.matches) { // If media query matches
+	if (med_mob_width.matches) { // If media query matches
             document.getElementById("cards").style.marginTop = "5%";
         }
+	if (small_mob_width.matches) { // If media query matches
+            document.getElementById("cards").style.marginTop = "5%";
+        }    
 
     } else {
         x.style.display = "block";
-        if (mob_width.matches) { // If media query matches
+        if (med_mob_width.matches) { // If media query matches
+            document.getElementById("cards").style.marginTop = "20%";
+        }
+	if (med_mob_width.matches) { // If media query matches
             document.getElementById("cards").style.marginTop = "20%";
         }
 
