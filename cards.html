@@ -259,6 +259,7 @@
 	    <script> 
 var med_mob_width = window.matchMedia("(max-width: 991px)")
 var small_mob_width = window.matchMedia("(max-width: 500px)")
+var tab_width = window.matchMedia("(max-width: 1146px)")
 
 
 function myFunction() {
@@ -267,10 +268,15 @@ function myFunction() {
         x.style.display = "none";
 	if (med_mob_width.matches) { // If media query matches
             document.getElementById("cards").style.marginTop = "5%";
+	    location.reload()
         }
 	if (small_mob_width.matches) { // If media query matches
             document.getElementById("cards").style.marginTop = "5%";
-        }    
+	    location.reload()
+        }
+	if (tab_width.matches) { // If media query matches
+	    location.reload()
+        }  
 
     } else {
         x.style.display = "block";
