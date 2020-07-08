@@ -226,16 +226,3 @@ footer a:hover {
   }	
 	
 }
-
-
-
-@media (max-width: 991px) {
-
-	.amritsar{
-	left: 50%;
-	bottom: 235px;
-	}	
-	.mysore {
-	bottom: 235px;
-	}	
-}
